@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
 
+body{
+    background-color: black;    
+    text-align: center;           
+}
+body h1{
+    color: rgba(255, 250, 187, 0.993);
+    font-family:architects daughter;
+    font-size: 3rem;
+}
 .container{
     height: auto;
     width: auto;
@@ -19,6 +28,10 @@
     flex-wrap: wrap;       
 }
 .header h2{
+    font-family:architects daughter;
+    font-size: 2.5rem;
+}
+.header h3{
     font-family:architects daughter;
     font-size: 2.5rem;
 }
