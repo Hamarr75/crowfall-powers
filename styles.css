@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+.container{
+    height: auto;
+    width: auto;
+    margin: 1rem;
+    grid-template-rows: auto auto 1fr;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-image: radial-gradient(azure, rgba(255, 250, 187, 0.993));
+    box-shadow: 2px 4px rgb(163, 163, 79);
+}
+
+.header{
+    padding: 1rem;
+    grid-row: 1/4;
+    justify-content: center;    
+    display: flex;
+    flex-wrap: wrap;       
+}
+.header h2{
+    font-family:architects daughter;
+    font-size: 2.5rem;
+}
+.header img{
+    height: 7rem;      
+}
+.power-{
+    padding: 1rem;
+    grid-row: 2/3;    
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    font-family:architects daughter;       
+}
+.power- img{
+    height: 2rem;
+    display: inline;
+    padding: .5rem;
+}
+.power div{     
+    text-align: center;    
+}
+
+.info{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    grid-column: 1/4;
+    justify-content: center;
+    display: flex;
+    font-family:architects daughter;
+    font-size: 1.5rem;     
+}
+.p-header{
+    font-size: 2rem; 
+}
+.img::after {
+    content: "";
+    clear: both;
+    display: table;
+}
