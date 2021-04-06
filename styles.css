@@ -79,10 +79,13 @@ body h2{
 .power- img{
     height: 2rem;
     display: inline;
-    padding: .5rem;
+    xpadding: .5rem;
 }
 .power div{     
     text-align: center;    
+}
+.power- p {    
+    margin: 0;
 }
 
 .info{
