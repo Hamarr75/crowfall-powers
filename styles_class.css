@@ -2,40 +2,89 @@
 
 body{
     background-color: black;    
-    text-align: center;           
-}
-body h1{
+    text-align: center;
     color: rgba(255, 250, 187, 0.993);
-    font-family:architects daughter;
+    font-family:architects daughter;           
+}
+body h1{    
     font-size: 3rem;
 }
-body h2{
-    color: rgba(255, 250, 187, 0.993);
-    font-family:architects daughter;
+body h2{    
+    font-size: 3rem;
 }
 
-.title img{
-    max-width: 840px;
-    width: 100%;
+/* below card for the class image's race and power domains */
+.class-info{
     
+    margin-top: 20px;
+    margin-bottom: 20px;    
+    display: grid;
+    xgrid-template-columns: auto;
+    xgrid-template-rows: auto;
+    row-gap: 1rem;
+    column-gap: 1rem;
+    grid-template-areas: 
+        "le le le header header header"
+        "le le le ri ri ri "          
+        "disc disc prom prom dom dom";
+} 
+.title{  
+    grid-area: le;
+    align-self: center;    
 }
-
-.race{
-    color: rgba(255, 250, 187, 0.993);
-    font-family:architects daughter;    
-    justify-content: center;
+.title img{
+    width: 50%;    
+}
+.class-races{    
+    grid-area: header;    
+    align-self: flex-end;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;       
+}
+.race{    
+    grid-area: ri;
+    justify-content: left;    
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: center;   
 }
 .race div{
     padding: .5rem;
     text-align: center;
 }
+.race img{
+    width: 100%;
+}
+.disc{
+    font-size: 1.5rem;
+    grid-area: disc;
+    
+    justify-content: center;
+}
+.prom{
+    font-size: 1.5rem;
+    grid-area: prom;
+    display: flex;
+    
+    justify-content: center;
+}
+.dom{
+    font-size: 1.5rem;
+    grid-area: dom;
+    
+    justify-content: center;
+}
+/* above card for the class image's race and power domains */
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;   
+}
 .container{
     height: auto;
-    width: auto;
-    margin: 1rem;
+    width: 45%;    
+    margin: .5rem;           
     grid-template-rows: auto auto 1fr;
     border: 1px solid black;
     border-radius: 5px;
@@ -78,8 +127,7 @@ body h2{
 }
 .power- img{
     height: 2rem;
-    display: inline;
-    xpadding: .5rem;
+    display: inline;    
 }
 .power div{     
     text-align: center;    

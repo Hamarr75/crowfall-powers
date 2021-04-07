@@ -8,12 +8,13 @@ body{
 }
 
 .index-class{
-    width: 33%;
+    width:33%;
+    
 }
 .index-class h1{
     color: rgba(255, 250, 187, 0.993);
     font-family:architects daughter;
-    font-size: 3rem;
+    font-size: 4vmax;
     margin: 0;
     text-align: center; 
 }
@@ -23,7 +24,7 @@ body{
 }
 
 .title img{
-    max-width: 840px;
+    
     width: 100%;    
 }
 
