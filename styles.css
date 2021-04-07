@@ -2,103 +2,30 @@
 
 body{
     background-color: black;    
-    text-align: center;           
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;           
 }
-body h1{
+
+.index-class{
+    width: 33%;
+}
+.index-class h1{
     color: rgba(255, 250, 187, 0.993);
     font-family:architects daughter;
     font-size: 3rem;
+    margin: 0;
+    text-align: center; 
 }
-body h2{
-    color: rgba(255, 250, 187, 0.993);
-    font-family:architects daughter;
+.index-class img{
+    margin: 0;
+    width: 66%;
 }
 
 .title img{
     max-width: 840px;
-    width: 100%;
-    
+    width: 100%;    
 }
 
-.race{
-    color: rgba(255, 250, 187, 0.993);
-    font-family:architects daughter;    
-    justify-content: center;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-}
-.race div{
-    padding: .5rem;
-    text-align: center;
-}
-.container{
-    height: auto;
-    width: auto;
-    margin: 1rem;
-    grid-template-rows: auto auto 1fr;
-    border: 1px solid black;
-    border-radius: 5px;
-    background-image: radial-gradient(azure, rgba(255, 250, 187, 0.993));
-    box-shadow: 2px 4px rgb(163, 163, 79);
-    color: black;        
-}
-.container div{
-    padding: 1rem;    
-}
-
-.header{    
-    grid-row: 1/4;
-    justify-content: center;    
-    display: flex;
-    flex-wrap: wrap;
-    color: black;       
-}
-.header h2{
-    font-family:architects daughter;
-    font-size: 2.5rem;
-    color: black;    
-}
-.header h3{
-    font-family:architects daughter;
-    font-size: 2.5rem;
-    color: black;    
-}
-.header img{
-    height: 7rem;          
-}
-.power-{
-    padding: 1rem;
-    grid-row: 2/3;    
-    justify-content: center;
-    display: flex;
-    flex-wrap: wrap;
-    font-family:architects daughter;
-    color: black;       
-}
-.power- img{
-    height: 2rem;
-    display: inline;
-    xpadding: .5rem;
-}
-.power div{     
-    text-align: center;    
-}
-.power- p {    
-    margin: 0;
-}
-
-.info{
-    margin-left: 1rem;
-    margin-right: 1rem;
-    grid-column: 1/4;
-    justify-content: center;
-    display: flex;
-    font-family:architects daughter;
-    font-size: 1.5rem;     
-}
-.p-header{
-    font-size: 2rem; 
-}
 
 
