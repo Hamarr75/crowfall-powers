@@ -12,9 +12,17 @@ header a{
     text-decoration: none;
     color: rgba(255, 250, 187, 0.993);
 }
+.prom a{
+    text-decoration: none;
+    color: rgba(230, 220, 110, 0.993);
+}
 header a:hover{
     text-decoration: none;
     color: rgba(230, 220, 110, 0.993);
+}
+.prom a:hover{
+    text-decoration: none;
+    color: rgba(255, 250, 187, 0.993);
 }
 body{
     background-color: black;    
