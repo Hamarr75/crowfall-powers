@@ -94,6 +94,9 @@ section{
 section > *{
     flex: 1 1 30rem;      
 }
+.sub-header{
+    background-color: blueviolet;
+}
 /* below container for the powers */
 .container{ 
     height: auto;
@@ -109,7 +112,32 @@ section > *{
 .container div{
     padding: 1rem;    
 }
-
+.aside-majors{
+    float: left;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    background-color: blueviolet;
+    height: 70rem;
+    line-height: 3.5rem;    
+    font-size: 3rem;    
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    z-index: 0;    
+}
+.aside-minors{
+    float: left;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    background-color: blueviolet;
+    height: 70rem;
+    line-height: 3.5rem;    
+    font-size: 3rem;    
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    z-index: 1;    
+}
 .header{    
     grid-row: 1/4;
     justify-content: center;    
