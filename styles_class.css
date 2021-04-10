@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
 
-header ul{    
+nav ul{    
     list-style-type: none;  
 }
-header li{
+nav li{
     display: inline;    
     list-style-type: none;    
     margin: 1rem;
 }
-header a{
+nav a{
     text-decoration: none;
     color: rgba(255, 250, 187, 0.993);
 }
@@ -20,7 +20,7 @@ header a{
     text-decoration: none;
     color: rgba(230, 220, 110, 0.993);
 }
-header a:hover{
+nav a:hover{
     text-decoration: none;
     color: rgba(230, 220, 110, 0.993);
 }
