@@ -203,7 +203,7 @@ body{
         justify-content: center;
         line-height: 2rem;  
     }
-
+/* The class power cards*/
 .container-class-powers{
     background-image:radial-gradient(rgb(100, 33, 100), rgb(128, 20, 128));
     display: grid;
@@ -264,6 +264,7 @@ body{
     margin-left: 1rem;
     margin-right: 1rem;      
 }
+/* The Major and Minor cards */
 .container-major{
     background-image:radial-gradient(rgb(100, 33, 100), rgb(128, 20, 128));
     display: grid;
@@ -426,7 +427,7 @@ body{
     justify-content: center;
     line-height: 2rem; 
 }
-/* The minor and major cards */
+/* The class power cards*/
 .container-class-powers{
     background-image:radial-gradient(rgb(100, 33, 100), rgb(128, 20, 128));
     display: grid;
@@ -458,6 +459,7 @@ body{
     margin-left: 1rem;
     margin-right: 1rem;      
 }
+/* The Major and Minor cards */
 .container-major{
     background-image:radial-gradient(rgb(100, 33, 100), rgb(128, 20, 128));
     display: grid;
@@ -620,7 +622,7 @@ body{
     justify-content: center;
     line-height: 2rem; 
 }
-/* The minor and major cards */
+/* The class power cards*/
 .container-class-powers{
     background-image:radial-gradient(rgb(100, 33, 100), rgb(128, 20, 128));
     display: grid;
@@ -652,6 +654,7 @@ body{
     margin-left: 1rem;
     margin-right: 1rem;      
 }
+/* The Major and Minor cards */
 .container-major{
     background-image:radial-gradient(rgb(100, 33, 100), rgb(128, 20, 128));
     display: grid;
@@ -840,7 +843,7 @@ body{
     text-align: center;
     margin-top: .5rem;         
 }
-/* The Major cards */
+/* The Major and Minor cards */
 .container-major{
     background-image:radial-gradient(rgb(100, 33, 100), rgb(128, 20, 128));
     display: grid;
