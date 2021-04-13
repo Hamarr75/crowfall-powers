@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+nav ul{    
+    list-style-type: none;  
+}
+nav li{
+    display: inline;    
+    list-style-type: none;    
+    margin: 1rem;
+}
+nav a{
+    text-decoration: none;
+    color: rgba(255, 250, 187, 0.993);
+}
+.prom  a{
+    text-decoration: none;
+    color: rgba(230, 220, 110, 0.993);
+}
+.disciplines  a{
+    text-decoration: none;
+    color: rgba(230, 220, 110, 0.993);
+}
+nav a:hover{
+    text-decoration: none;
+    color: rgba(230, 220, 110, 0.993);
+}
+.prom a:hover{
+    text-decoration: none;
+    color: rgba(255, 250, 187, 0.993);
+}
+.disciplines a:hover{
+    text-decoration: none;
+    color: rgba(255, 250, 187, 0.993);
+}
+body{
+    background-color: black;    
+    text-align: center;
+    color: rgba(255, 250, 187, 0.993);
+    font-family:architects daughter;               
+}
+body h1{    
+    font-size: 3rem;
+    color: rgba(230, 220, 110, 0.993);
+}
+body h2{    
+    font-size: 2.5rem;
+    color: rgba(230, 220, 110, 0.993);
+}   
+body h3{    
+    font-size: 2rem;
+    color: rgba(230, 220, 110, 0.993);
+}
+
+/* below card for the class image's race and power domains */
+.class-info{        
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+.class-info > *{
+    flex: 1 1 40rem;
+} 
+
+.title img{
+    width: 100%;    
+}
+
+.race{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+.race div{
+    padding: .5rem;
+    text-align: center;
+}
+.disc{
+    font-size: 1.5rem;    
+    justify-content: center;
+}
+.prom{
+    font-size: 1.5rem;      
+    justify-content: center;
+}
+.dom{
+    font-size: 1.5rem;    
+    justify-content: center;
+}
+/* above card for the class image's race and power domains */
+section{
+    display: flex;
+    flex-wrap: wrap;       
+}
+section > *{
+    flex: 1 1 30rem;      
+}
+.sub-header{
+    background-color: blueviolet;
+}
+/* below container for the powers */
+.container{ 
+    height: auto;
+    width: 45%;    
+    margin: .5rem;           
+    grid-template-rows: auto auto 1fr;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-image: radial-gradient(ivory, rgba(255, 250, 187, 0.993));
+    box-shadow: 1px 2px 6px 2px rgb(163, 163, 79);
+    color: black;        
+}
+.container div{
+    padding: 1rem;    
+}
+.aside-majors{
+    float: left;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    background-color: blueviolet;
+    height: 70rem;
+    line-height: 3.5rem;    
+    font-size: 3rem;    
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    z-index: 0;    
+}
+.aside-minors{
+    float: left;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    background-color: blueviolet;
+    height: 70rem;
+    line-height: 3.5rem;    
+    font-size: 3rem;    
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    z-index: 1;    
+}
+.header{    
+    grid-row: 1/4;
+    justify-content: center;    
+    display: flex;
+    flex-wrap: wrap;
+    color: black;       
+}
+.header h2{
+    font-family:architects daughter;
+    font-size: 2.5rem;
+    color: black;    
+}
+.header h3{
+    font-family:architects daughter;
+    font-size: 2.5rem;
+    color: black;    
+}
+.header img{
+    height: 7rem;          
+}
+.power-{
+    padding: 1rem;
+    grid-row: 2/3;    
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    font-family:architects daughter;
+    color: black;       
+}
+.power- img{
+    height: 2rem;
+    display: inline;    
+}
+.power- div{     
+    text-align: center;    
+}
+.power- p {    
+    margin: 0;
+}
+
+.info{    
+    margin-left: 1rem;
+    margin-right: 1rem;
+    grid-column: 1/4;    
+    font-family:architects daughter;
+    font-size: 1.5rem;     
+}
+.p-header{
+    font-size: 2rem; 
+}
+/* above container for the powers */
+/* below container for major and minor discipline cards */
+.container-major{ 
+    height: auto;
+    width: 45%;    
+    margin: .5rem;           
+    grid-template-rows: auto auto 1fr;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-image: radial-gradient(ivory, rgba(255, 250, 187, 0.993));
+    box-shadow: 1px 2px 6px 2px rgb(163, 163, 79);
+    color: black;        
+}
+.container div{
+    padding: 1rem;    
+}
+
+.header{    
+    grid-row: 1/4;
+    justify-content: center;    
+    display: flex;
+    flex-wrap: wrap;
+    color: black;       
+}
+.header h2{
+    font-family:architects daughter;
+    font-size: 2.5rem;
+    color: black;    
+}
+.header h3{
+    font-family:architects daughter;
+    font-size: 2rem;
+    color: black;
+    margin: 0;    
+}
+.header h6{
+    font-family:architects daughter;
+    font-size: 2.5rem;
+    color: black;
+    margin: 0;    
+}
+.header img{
+    height: 7rem;          
+}
+.power-{
+    padding: 1rem;
+    grid-row: 2/3;    
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    font-family:architects daughter;
+    color: black;       
+}
+.power- img{
+    height: 2rem;
+    display: inline;    
+}
+.power div{     
+    text-align: center;    
+}
+.power- p {    
+    margin: 0;
+}
+
+.info{    
+    margin-left: 1rem;
+    margin-right: 1rem;
+    grid-column: 1/4;    
+    font-family:architects daughter;
+    font-size: 1.5rem;     
+}
+.p-header{
+    font-size: 2rem; 
+}
+/* above container for major and minor discipline cards */
