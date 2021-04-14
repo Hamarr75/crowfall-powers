@@ -2,16 +2,7 @@
     padding: 0;
     margin: 0;
 }
-@media (prefers-color-scheme: dark) {
-  body {
-    color: #eee;
-    background: #121212;
-  }
 
-  a {
-    color: #809fff;
-  }
-}
 html{
     margin: 0;
 }
@@ -870,3 +861,36 @@ body{
     width: 5rem;
 }
 }
+@media (prefers-color-scheme: light) {
+    body {
+      color: black;
+      background-color: white;      
+    }
+    a {
+      color: black;      
+    }
+    a:hover {
+        color: rgb(255, 80, 255);;      
+      }
+    .class-container a{
+        color: #eee;
+    }
+    .class-container a:hover{
+        color: rgb(0, 253, 253);
+    }
+    nav{
+        color: black;
+    }
+    
+
+  }
+  @media (prefers-color-scheme: dark) {
+    body {
+      color: #eee;
+      background: #121212;
+    }  
+    a {
+      color: #eee;
+    }
+
+  }
