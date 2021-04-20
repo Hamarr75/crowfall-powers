@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
-
 *{
     padding: 0;
     margin: 0;
@@ -16,11 +14,11 @@ body{
     
 }
 .index-class h1{
-    color: rgba(255, 250, 187, 0.993);
-    font-family:architects daughter;
+    color: rgba(255, 250, 187, 0.993);    
     font-size: 4vmax;
     margin: 0;
-    text-align: center; 
+    text-align: center;
+    display: grid; 
 }
 .index-class img{
     margin: 0;
@@ -31,6 +29,7 @@ body{
     
     width: 100%;    
 }
+
 
 
 
