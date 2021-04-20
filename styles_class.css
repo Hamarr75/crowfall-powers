@@ -226,8 +226,7 @@ body{
     justify-content: center;  
 }
 .class-powers-cooldown-info img{
-    display: flex;
-    justify-content: center;    
+    display: inline;       
     width: 1.5rem;
     text-align: center;     
 }
@@ -258,8 +257,7 @@ body{
     justify-content: center;  
 }
 .class-powers-cooldown-info img{
-    display: flex;
-    justify-content: center;    
+    display: inline;  
     width: 1.5rem;
     text-align: center;     
 }
@@ -451,8 +449,7 @@ body{
     justify-content: center;  
 }
 .class-powers-cooldown-info img{
-    display: flex;
-    justify-content: center;    
+    display: inline;        
     width: 1.5rem;
     text-align: center;     
 }
@@ -646,11 +643,11 @@ body{
     justify-content: center;  
 }
 .class-powers-cooldown-info img{
-    display: flex;
-    justify-content: center;    
+    display: inline;        
     width: 1.5rem;
     text-align: center;     
 }
+
 .cooldown-img{ 
     display: block;
     text-align: center;    
