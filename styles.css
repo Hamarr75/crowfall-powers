@@ -2,17 +2,54 @@
     padding: 0;
     margin: 0;
 }
+
 body{
     background-color: black;    
     display: grid;
-    grid-template-columns: auto auto auto ;    
-    justify-content: center;    
+    grid-template-columns: auto;      
+    justify-content: center;
+    text-align: center;    
+}
+.class-section{
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.race-section{
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: auto auto auto;
+}
+.domains-section{
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: auto auto auto;
+}
+.header-title{
+  margin: 2rem;
 }
 
 .class-icon{
     display: flex;
     text-align: center;
     cursor: pointer;    
+}
+.race-icon{
+  display: flex;
+  text-align: center;  
+  cursor: pointer;
+}
+.domains-icon{
+  display: flex;
+  text-align: center;  
+  cursor: pointer;  
+}
+.domains-icon h1{
+  margin-bottom: .5rem;  
+}
+
+.race-icon img{  
+  border-radius: 50%;
+  margin-top: 1.5rem; 
 }
 
 @media screen and (max-width:720px){
