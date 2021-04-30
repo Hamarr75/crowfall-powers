@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="styles_race.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700&display=swap" rel="stylesheet">
-    <title>Crowfall Powers Elken</title>
+    <title>Crowfall Powers Minotaur</title>
 </head>
 
 <nav>
@@ -29,34 +29,28 @@
 </nav>
 <body>
     <div class="race-container">
-        <div class="race-image"><img src="images/Race/UI_Icon_CharCreate_Race_Elken_01.png" width="250rem" height="250rem"></div>
-        <div class="race-name"><h1>Elken</h1></div>
+        <div class="race-image"><img src="images/Race/UI_Icon_CharCreate_Race_Minotaur_01.png" width="250rem" height="250rem"></div>
+        <div class="race-name"><h1>Minotaur</h1></div>
         <div class="race-classes"><h2>Available Classes</h2></div>
         <div class="container-class-icons">    
             <div>
-                 <a href="confessor.html" target="_blank"><img src="images/Class/CF_Class_confessor.png"><div>Confessor</div></a>
+                 <a href="champion.html" target="_blank"><img src="images/Class/CF_Class_champion.png"><div>Champion</div></a>
             </div>
             <div>
-                <a href="cleric.html" target="_blank"><img src="images/Class/CF_Class_cleric.png"><div>Cleric</div></a>
-            </div>
-            <div>
-                <a href="knight.html" target="_blank"><img src="images/Class/CF_Class_knight.png"><div>Knight</div></a>
+                <a href="myrmidon.html" target="_blank"><img src="images/Class/CF_Class_myrmidon.png"><div>Myrmidon</div></a>
             </div>
             <div>
                 <a href="ranger.html" target="_blank"><img src="images/Class/CF_Class_ranger.png"><div>Ranger</div></a>
-            </div>
-            <div>
-                <a href="templar.html" target="_blank"><img src="images/Class/CF_Class_templar.png"><div>Templar</div></a>
-            </div>                     
+            </div>                               
         </div>   
         <div class="race-disciplines"><h2>Race Disciplines</h2></div>
         <div class="race-disciplines-text">
             <h3><a href="#majors">Majors</a></h3>
-            Dryad<br>
-            Forest Creature            
+            Runescarred Gladiator<br>
+            Stalker            
             <h3><a href="#minors">Minors</a></h3>
-            Barbed Stake<br>
-            Pack Avatar            
+            Eminently Punchable<br>
+            Last Resort            
         </div>
     </div>           
 
@@ -66,8 +60,8 @@
         <div class="container-race-powers">        
             <div class="header-race-powers">
                 <div>
-                    <h2 id="head-butt">Head Butt</h2>            
-                    <img src="images/Powers/Icon_Powers_Graphic_Disc_HeadButt.png">
+                    <h2 id="bull-rush">Bull Rush</h2>            
+                    <img src="images/Powers/Icon_Powers_Graphic_Myrm_BullRush.png">
                 </div>                           
             </div>
             <div class="race-powers-cooldown-info">
@@ -105,29 +99,28 @@
                 </div>
                 <div class="cooldown-img">
                     <img src="images/UI_PowerAttributeIcon_Range.png">
-                    <div>6 M</div>
+                    <div>20 M</div>
                 </div>
                 <div class="cooldown-img">
                     <img src="images/UI_PowerAttributeIcon_Restore.png">
                     <div></div>
                 </div>
             </div>    
-                <p class="info">Charges you forward 20M. When the charge ends, it knocks down enemies and
-                    causes 104 damage. This crushes an enemy who is actively using Block, opening them up
-                    for attacks.
+                <p class="info">Charges you forward 20M.When the charge ends, Knockdown and deal 136
+                    damage to enemies within 4M of you.
                 </p>        
         </div>
         <div class="container-race-powers">        
             <div class="header-race-powers">
                 <div>
-                    <h2 id="gestalt">Gestalt</h2>            
-                    <img src="images/Powers/Icon_Powers_Graphic_Disc_Gestalt.png">
+                    <h2 id="bloodthirst">Bloodthirst</h2>            
+                    <img src="images/Powers/Icon_Powers_Graphic_Disc_BloodThirst.png">
                 </div>                           
             </div>
             <div class="race-powers-cooldown-info">
                 <div class="cooldown-img">
                     <img src="images/UI_PowerAttributeIcon_Cooldown.png">
-                    <div>45 S</div>
+                    <div>30 S</div>
                 </div>
                 <div class="cooldown-img">
                     <img src="images/UI_PowerAttributeIcon_Lifetime.png">
@@ -147,11 +140,11 @@
                 </div>
                 <div class="cooldown-img">
                     <img src="images/UI_PowerAttributeIcon_CastTime.png">
-                    <div>2 S</div>
+                    <div>Instant</div>
                 </div>
                 <div class="cooldown-img">
                     <img src="images/UI_PowerAttributeIcon_Duration.png">
-                    <div>15 S</div>
+                    <div>8 S</div>
                 </div>
                 <div class="cooldown-img">
                     <img src="images/UI_PowerAttributeIcon_Cost.png">
@@ -166,9 +159,10 @@
                     <div></div>
                 </div>
             </div>    
-                <p class="info">Activates Shadow Sight allowing you to detect enemies in stealth for 15
-                    seconds.<br><br>
-                    This power has an extremely high Perception base.
+                <p class="info">Continually recovers 50% of all lost Health for 8 seconds.<br><br>
+                    When the effect ends you suffer Bloodthirst Crash and take 50% of lost Health over
+                    the next 8 seconds.<br><br>
+                    (Note: The Berserk power will replace Bloodthirst)
                 </p>        
         </div>
     </section>
@@ -180,63 +174,60 @@
         <div class="container-major">        
             <div class="header-major">
                 <div>
-                    <h2 id="dryad">Dryad</h2>            
-                    <img src="images/Discipline/Major/Icon_Disc_Major_Dryad.png">
+                    <h2 id="runescarred-gladiator">Runescarred Gladiator</h2>            
+                    <img src="images/Discipline/Major/Icon_Disc_Major_ArcaneArcher.png">
                 </div>
                 <div>
                     <h2 id="requirements">Requirements</h2>
-                    <p>Trait: Elken, Nature</p>
+                    <p>Trait: Champion, Minotaur</p>
                     <p>Slot: Major</p>
                     <h2 id="statistics">Statistics</h2>
-                    <p>Healing Bonus: +3%</p>
-                    <p>Support Power: +100</p>
+                    <p>Critical Strike: +2%</p>
+                    <p>Organic Resistance: +300</p>
                     <h2>Discipline</h2>
                     <h6>Powers Granted</h6>
                         <div>
-                            <h3>Blast Of Leaves</h3>
-                            <img src="images/Powers/Icon_Powers_Graphic_Disc_BlastOfLeaves.png">
-                            <p>Blasts Leaves healing allies in front of you for 188 Health 16 times over 8
-                                seconds while you channel.
+                            <h3>Reprisal</h3>
+                            <img src="images/Powers/Icon_Powers_Graphic_Disc_RunecarveFlesh.png">
+                            <p>Absorbs 10% of damage taken for 15 seconds and then explodes to inflicting 35% 
+                                of total damage taken (max 1050) to nearby enemies as Fire Damage.
                             </p>
                         </div>
                         <div>
-                            <h3>Nature's Avatar</h3>
-                            <img src="images/Powers/Icon_Powers_Graphic_Drud_NaturesAvatar.png">
-                            <p>Empowers an ally, increasing their Damage Bonus, Critical Strike, Critical Damage
-                                and Personal Damage Modifier by 20% and Power Damage Bonus: Melee by 0% while you
-                                channel. 
+                            <h3>Nothing To Lose</h3>
+                            <img src="images/Powers/Icon_Powers_Graphic_Disc_NothingToLose.png">
+                            <p>Sacrifices 500 Health to increase Critical Strike by 10%, Critical Damage by 10%
+                                and Power Damage Bonus: Melee by 5% for 15 seconds.
                             </p>
-                        </div>                                       
+                        </div>                                         
                 </div>                                            
             </div>                                               
         </div>
         <div class="container-major">        
             <div class="header-major">
                 <div>
-                    <h2 id="sun-worshiper">Forest Creature</h2>            
-                    <img src="images/Discipline/Major/Icon_Disc_Major_ForestCreature.png">
+                    <h2 id="stalker">Stalker</h2>            
+                    <img src="images/Discipline/Major/Icon_Disc_Major_Stalker.png">
                 </div>
                 <div>
                     <h2 id="requirements">Requirements</h2>
-                    <p>Trait: Elken, Wood Elf, Nature</p>
+                    <p>Trait: Minotaur, War</p>
                     <p>Slot: Major</p>
                     <h2 id="statistics">Statistics</h2>
-                    <p>Critical Healing Chance: +2%</p>
-                    <p>Support Power: +100</p>
+                    <p>Critical Damage: +5%</p>
+                    <p>Movement Speed Damage Bonus: +5%</p>
                     <h2>Discipline</h2>
                     <h6>Powers Granted</h6>
                         <div>
-                            <h3>Pixie Dust</h3>
-                            <img src="images/Powers/Icon_Powers_Graphic_Disc_PixieDust.png">
-                            <p>Blankets the targeted area with Pixie Dust, increasing Personal Healing Modifier
-                                by 25% for 30 seconds..
+                            <h3>Hamstring</h3>
+                            <img src="images/Powers/Icon_Powers_Graphic_Disc_Hamstring.png">
+                            <p>Applies a Slow when attacking an enemy that is currently Bleeding.
                             </p>
                         </div>
                         <div>
-                            <h3>Slow Stake</h3>
-                            <img src="images/Powers/Icon_Powers_Graphic_Rngr_ArcherStake.png">
-                            <p>Creates a field, Snaring any enemies in it every second for 15 seconds as long
-                                they remain near the Stake.
+                            <h3>Angel Of Death</h3>
+                            <img src="images/Powers/Icon_Powers_Graphic_Disc_AngelOfDeath.png">
+                            <p>Deals 20 more Damage to enemies with low health.
                             </p>
                         </div>                                         
                 </div>                                            
@@ -250,22 +241,23 @@
         <div class="container-major">        
             <div class="header-major">
                 <div>
-                    <h2 id="barbed-stake">Barbed Stake</h2>            
-                    <img src="images/Discipline/Minor/Icon_Disc_Minor_BarbedStake.png">
+                    <h2 id="eminently-punchable">Eminently Punchable</h2>            
+                    <img src="images/Discipline/Minor/Icon_Disc_Minor_EminentlyPunchable.png">
                 </div>
                 <div>
                     <h2 id="requirements">Requirements</h2>
-                    <p>Trait: Elken, Dark, Plague</p>
+                    <p>Trait: Minotaur, Fire, Storm, Battle</p>
                     <p>Slot: Minor</p>
                     <h2 id="statistics">Statistics</h2>
-                    <p>Ranged Distance Bonus: +5(m)</p>                    
+                    <p>Physical Resictance: +300</p>                    
                     <h2>Discipline</h2>
                     <h6>Powers Granted</h6>
                     <div>
-                        <h3>Barbed Stake</h3>
-                        <img src="images/Powers/Icon_Powers_Graphic_Rngr_ArcherStake.png">                        
-                        <p>Creates a field, dealing 74 damage as Bleed damage to up to 5 enemies in
-                            the field for 30 seconds as long as enemies remain in the field.
+                        <h3>Hit Me</h3>
+                        <img src="images/Powers/Icon_Powers_Graphic_Disc_HitMe.png">                        
+                        <p>Irritates your enemies by recovering Recource when they hit you with non-periodic
+                            damage.<br><br>
+                            This effect can only occur once every 3 seconds.
                         </p>
                     </div>               
                 </div>
@@ -274,26 +266,27 @@
         <div class="container-major">        
             <div class="header-major">
                 <div>
-                    <h2 id="pack-avatar">Pack Avatar</h2>            
-                    <img src="images/Discipline/Minor/Icon_Disc_Minor_PackAvatar.png">
+                    <h2 id="last-resort">Last Resort</h2>            
+                    <img src="images/Discipline/Minor/Icon_Disc_Minor_LastResort.png">
                 </div>
                 <div>
                     <h2 id="requirements">Requirements</h2>
-                    <p>Trait: Centaur, Elken</p>
+                    <p>Trait: Minotaur, Fire, War, Music</p>
                     <p>Slot: Minor</p>
                     <h2 id="statistics">Statistics</h2>
-                    <p>Health: +500</p>                    
+                    <p>Critical Damage: +5%</p>                    
                     <h2>Discipline</h2>
                     <h6>Powers Granted</h6>
                     <div>
-                        <h3>Pack Avatar</h3>
-                        <img src="images/Powers/Icon_Powers_Graphic_Drud_PackAvatar.png">                        
-                        <p>Empowers your group, increasing Damage Bonus and Critical Strike by 10% for
-                            20 seconds.
+                        <h3>Last Resort</h3>
+                        <img src="images/Powers/Icon_Powers_Graphic_Disc_LastResort.png">                        
+                        <p>Increases your Critical Strike and Critical Damage by 25% while your Health is below 
+                            35%.<br><br>
+                            This can occur once every 5 seconds.
                         </p>
                     </div>               
                 </div>
             </div>
-        </div>        
+        </div>
     </section>
 </body>

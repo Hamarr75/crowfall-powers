@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="styles_race.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700&display=swap" rel="stylesheet">
-    <title>Crowfall Powers Elken</title>
+    <title>Crowfall Powers Half Elf</title>
 </head>
 
 <nav>
@@ -29,34 +29,28 @@
 </nav>
 <body>
     <div class="race-container">
-        <div class="race-image"><img src="images/Race/UI_Icon_CharCreate_Race_Elken_01.png" width="250rem" height="250rem"></div>
-        <div class="race-name"><h1>Elken</h1></div>
+        <div class="race-image"><img src="images/Race/UI_Icon_CharCreate_Race_Half-Elf_01.png" width="250rem" height="250rem"></div>
+        <div class="race-name"><h1>Half Elf</h1></div>
         <div class="race-classes"><h2>Available Classes</h2></div>
         <div class="container-class-icons">    
             <div>
-                 <a href="confessor.html" target="_blank"><img src="images/Class/CF_Class_confessor.png"><div>Confessor</div></a>
+                 <a href="assassin.html" target="_blank"><img src="images/Class/CF_Class_assassin.png"><div>Assassin</div></a>
             </div>
             <div>
-                <a href="cleric.html" target="_blank"><img src="images/Class/CF_Class_cleric.png"><div>Cleric</div></a>
-            </div>
-            <div>
-                <a href="knight.html" target="_blank"><img src="images/Class/CF_Class_knight.png"><div>Knight</div></a>
-            </div>
+                <a href="druid.html" target="_blank"><img src="images/Class/CF_Class_druid.png"><div>Druid</div></a>
+            </div>            
             <div>
                 <a href="ranger.html" target="_blank"><img src="images/Class/CF_Class_ranger.png"><div>Ranger</div></a>
-            </div>
-            <div>
-                <a href="templar.html" target="_blank"><img src="images/Class/CF_Class_templar.png"><div>Templar</div></a>
-            </div>                     
+            </div>                                
         </div>   
         <div class="race-disciplines"><h2>Race Disciplines</h2></div>
         <div class="race-disciplines-text">
             <h3><a href="#majors">Majors</a></h3>
-            Dryad<br>
-            Forest Creature            
+            S<br>
+            S            
             <h3><a href="#minors">Minors</a></h3>
-            Barbed Stake<br>
-            Pack Avatar            
+            P<br>
+            T           
         </div>
     </div>           
 
@@ -66,14 +60,14 @@
         <div class="container-race-powers">        
             <div class="header-race-powers">
                 <div>
-                    <h2 id="head-butt">Head Butt</h2>            
-                    <img src="images/Powers/Icon_Powers_Graphic_Disc_HeadButt.png">
+                    <h2 id="wild-charge">Wild Charge</h2>            
+                    <img src="images/Powers/Icon_Powers_Graphic_Disc_WildCharge.png">
                 </div>                           
             </div>
             <div class="race-powers-cooldown-info">
                 <div class="cooldown-img">
                     <img src="images/UI_PowerAttributeIcon_Cooldown.png">
-                    <div>30 S</div>
+                    <div>23 S</div>
                 </div>
                 <div class="cooldown-img">
                     <img src="images/UI_PowerAttributeIcon_Lifetime.png">
@@ -97,60 +91,6 @@
                 </div>
                 <div class="cooldown-img">
                     <img src="images/UI_PowerAttributeIcon_Duration.png">
-                    <div></div>
-                </div>
-                <div class="cooldown-img">
-                    <img src="images/UI_PowerAttributeIcon_Cost.png">
-                    <div></div>
-                </div>
-                <div class="cooldown-img">
-                    <img src="images/UI_PowerAttributeIcon_Range.png">
-                    <div>6 M</div>
-                </div>
-                <div class="cooldown-img">
-                    <img src="images/UI_PowerAttributeIcon_Restore.png">
-                    <div></div>
-                </div>
-            </div>    
-                <p class="info">Charges you forward 20M. When the charge ends, it knocks down enemies and
-                    causes 104 damage. This crushes an enemy who is actively using Block, opening them up
-                    for attacks.
-                </p>        
-        </div>
-        <div class="container-race-powers">        
-            <div class="header-race-powers">
-                <div>
-                    <h2 id="gestalt">Gestalt</h2>            
-                    <img src="images/Powers/Icon_Powers_Graphic_Disc_Gestalt.png">
-                </div>                           
-            </div>
-            <div class="race-powers-cooldown-info">
-                <div class="cooldown-img">
-                    <img src="images/UI_PowerAttributeIcon_Cooldown.png">
-                    <div>45 S</div>
-                </div>
-                <div class="cooldown-img">
-                    <img src="images/UI_PowerAttributeIcon_Lifetime.png">
-                    <div></div>
-                </div>
-                <div class="cooldown-img">
-                    <img src="images/UI_PowerAttributeIcon_MaxTargets.png">
-                    <div></div>
-                </div>
-                <div class="cooldown-img">
-                    <img src="images/UI_PowerAttributeIcon_Target.png">
-                    <div>Self</div>
-                </div>
-                <div class="cooldown-img">
-                    <img src="images/UI_PowerAttributeIcon_AreaSize.png">
-                    <div></div>
-                </div>
-                <div class="cooldown-img">
-                    <img src="images/UI_PowerAttributeIcon_CastTime.png">
-                    <div>2 S</div>
-                </div>
-                <div class="cooldown-img">
-                    <img src="images/UI_PowerAttributeIcon_Duration.png">
                     <div>15 S</div>
                 </div>
                 <div class="cooldown-img">
@@ -166,9 +106,63 @@
                     <div></div>
                 </div>
             </div>    
-                <p class="info">Activates Shadow Sight allowing you to detect enemies in stealth for 15
-                    seconds.<br><br>
-                    This power has an extremely high Perception base.
+                <p class="info">Charges you forward 15M dealing 119 damage to enemies in your path. 
+                    Wild Charge applies an Armor Tear to all hit, wich reduces all Final Physical 
+                    Mitigation by 10% for 15 seconds.<br><br>
+                    Enemies may be pushed back depending on how close you are to them when you initiate 
+                    the charge.
+                </p>        
+        </div>
+        <div class="container-race-powers">        
+            <div class="header-race-powers">
+                <div>
+                    <h2 id="rear-kick">Rear Kick</h2>            
+                    <img src="images/Powers/Icon_Powers_Graphic_Cntr_RearKick.png">
+                </div>                           
+            </div>
+            <div class="race-powers-cooldown-info">
+                <div class="cooldown-img">
+                    <img src="images/UI_PowerAttributeIcon_Cooldown.png">
+                    <div>30 S</div>
+                </div>
+                <div class="cooldown-img">
+                    <img src="images/UI_PowerAttributeIcon_Lifetime.png">
+                    <div></div>
+                </div>
+                <div class="cooldown-img">
+                    <img src="images/UI_PowerAttributeIcon_MaxTargets.png">
+                    <div>5</div>
+                </div>
+                <div class="cooldown-img">
+                    <img src="images/UI_PowerAttributeIcon_Target.png">
+                    <div>Behind Caster</div>
+                </div>
+                <div class="cooldown-img">
+                    <img src="images/UI_PowerAttributeIcon_AreaSize.png">
+                    <div></div>
+                </div>
+                <div class="cooldown-img">
+                    <img src="images/UI_PowerAttributeIcon_CastTime.png">
+                    <div>Instant</div>
+                </div>
+                <div class="cooldown-img">
+                    <img src="images/UI_PowerAttributeIcon_Duration.png">
+                    <div></div>
+                </div>
+                <div class="cooldown-img">
+                    <img src="images/UI_PowerAttributeIcon_Cost.png">
+                    <div></div>
+                </div>
+                <div class="cooldown-img">
+                    <img src="images/UI_PowerAttributeIcon_Range.png">
+                    <div>5 M</div>
+                </div>
+                <div class="cooldown-img">
+                    <img src="images/UI_PowerAttributeIcon_Restore.png">
+                    <div></div>
+                </div>
+            </div>    
+                <p class="info">Kicks behind you inflicting Knockdown and causing 94 damage.
                 </p>        
         </div>
     </section>
@@ -201,7 +195,7 @@
                         </div>
                         <div>
                             <h3>Nature's Avatar</h3>
-                            <img src="images/Powers/Icon_Powers_Graphic_Drud_NaturesAvatar.png">
+                            <img src="images/Powers/Icon_Powers_Graphic_Disc_">
                             <p>Empowers an ally, increasing their Damage Bonus, Critical Strike, Critical Damage
                                 and Personal Damage Modifier by 20% and Power Damage Bonus: Melee by 0% while you
                                 channel. 
@@ -213,30 +207,31 @@
         <div class="container-major">        
             <div class="header-major">
                 <div>
-                    <h2 id="sun-worshiper">Forest Creature</h2>            
-                    <img src="images/Discipline/Major/Icon_Disc_Major_ForestCreature.png">
+                    <h2 id="sun-worshiper">Sun Worshiper</h2>            
+                    <img src="images/Discipline/Major/Icon_Disc_Major_SunWorshiper.png">
                 </div>
                 <div>
                     <h2 id="requirements">Requirements</h2>
-                    <p>Trait: Elken, Wood Elf, Nature</p>
+                    <p>Trait: Centaur, Light, Fire</p>
                     <p>Slot: Major</p>
                     <h2 id="statistics">Statistics</h2>
-                    <p>Critical Healing Chance: +2%</p>
+                    <p>Elemental Resictance: +300</p>
                     <p>Support Power: +100</p>
                     <h2>Discipline</h2>
                     <h6>Powers Granted</h6>
                         <div>
-                            <h3>Pixie Dust</h3>
-                            <img src="images/Powers/Icon_Powers_Graphic_Disc_PixieDust.png">
-                            <p>Blankets the targeted area with Pixie Dust, increasing Personal Healing Modifier
-                                by 25% for 30 seconds..
+                            <h3>Chain Heal</h3>
+                            <img src="images/Powers/Icon_Powers_Graphic_Disc_ChainHeal.png">
+                            <p>Heals a targeted ally for 111 Health and then chains to an additional nearby
+                                ally that is 30% less effective.
                             </p>
                         </div>
                         <div>
-                            <h3>Slow Stake</h3>
-                            <img src="images/Powers/Icon_Powers_Graphic_Rngr_ArcherStake.png">
-                            <p>Creates a field, Snaring any enemies in it every second for 15 seconds as long
-                                they remain near the Stake.
+                            <h3>Cleanse</h3>
+                            <img src="images/Powers/Icon_Powers_Graphic_Disc_Purgative.png">
+                            <p>Removes all Bleeds, Diseases, Damnation, Poisons and Aura Emitters from your
+                                group members and gives a short Immunity to those removed. Increses your Bleed
+                                Resictances by 2000 for 12 seconds.
                             </p>
                         </div>                                         
                 </div>                                            
@@ -247,30 +242,6 @@
     <h1 class="sub-header" id="minors">Minors</h1>
 
     <section>
-        <div class="container-major">        
-            <div class="header-major">
-                <div>
-                    <h2 id="barbed-stake">Barbed Stake</h2>            
-                    <img src="images/Discipline/Minor/Icon_Disc_Minor_BarbedStake.png">
-                </div>
-                <div>
-                    <h2 id="requirements">Requirements</h2>
-                    <p>Trait: Elken, Dark, Plague</p>
-                    <p>Slot: Minor</p>
-                    <h2 id="statistics">Statistics</h2>
-                    <p>Ranged Distance Bonus: +5(m)</p>                    
-                    <h2>Discipline</h2>
-                    <h6>Powers Granted</h6>
-                    <div>
-                        <h3>Barbed Stake</h3>
-                        <img src="images/Powers/Icon_Powers_Graphic_Rngr_ArcherStake.png">                        
-                        <p>Creates a field, dealing 74 damage as Bleed damage to up to 5 enemies in
-                            the field for 30 seconds as long as enemies remain in the field.
-                        </p>
-                    </div>               
-                </div>
-            </div>
-        </div>
         <div class="container-major">        
             <div class="header-major">
                 <div>
@@ -294,6 +265,30 @@
                     </div>               
                 </div>
             </div>
-        </div>        
+        </div>
+        <div class="container-major">        
+            <div class="header-major">
+                <div>
+                    <h2 id="toughness">Toughness</h2>            
+                    <img src="images/Discipline/Minor/Icon_Disc_Minor_Toughness.png">
+                </div>
+                <div>
+                    <h2 id="requirements">Requirements</h2>
+                    <p>Trait: Templar, Centaur, Fire, Light, Music</p>
+                    <p>Slot: Minor</p>
+                    <h2 id="statistics">Statistics</h2>
+                    <p>Physical Resistance: +300</p>                    
+                    <h2>Discipline</h2>
+                    <h6>Powers Granted</h6>
+                    <div>
+                        <h3>Toughness</h3>
+                        <img src="images/Powers/Icon_Powers_Graphic_Disc_Toughness.png">                        
+                        <p>Strengthens group members and you increasing their Maximum Health by 1500
+                            for 45 seconds.
+                        </p>
+                    </div>               
+                </div>
+            </div>
+        </div>
     </section>
 </body>
