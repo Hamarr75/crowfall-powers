@@ -10,7 +10,7 @@ section{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    color: azure;
+    color:hsl(180, 100%, 97%);
 }
 ul{    
     list-style-type: none;
@@ -23,15 +23,19 @@ nav li{
 }
 a{
     text-decoration: none;
-    color: azure;    
+    color:hsl(180, 100%, 97%);   
 }
 a:hover{
     text-decoration: none;
     color: rgb(0, 253, 253);    
 }
+.class-container a:hover{
+    font-size: 99%;
+}
+
 body{
     text-align: center;
-    color: azure;
+    color:hsl(180, 100%, 97%);
     margin: 0;    
 }
 .container-major h2{
@@ -83,24 +87,25 @@ h1{
 }
 .class-promotion-text1{
     background: hsl(173, 17%, 29%);
+    
 }
 .class-promotion-text2{
-    background: hsl(173, 17%, 29%);
+    background: hsl(173, 17%, 29%);    
 }
 .class-promotion-text3{
-    background: hsl(173, 17%, 29%);
+    background: hsl(173, 17%, 29%);    
 }
 .class-domains{
     background: hsl(173, 17%, 29%);
 }
 .class-domains-text1{
-    background: hsl(173, 17%, 29%);
+    background: hsl(173, 17%, 29%);    
 }
 .class-domains-text2{
-    background: hsl(173, 17%, 29%);
+    background: hsl(173, 17%, 29%);    
 }
 .class-domains-text3{
-    background: hsl(173, 17%, 29%);
+    background: hsl(173, 17%, 29%);    
 }
 .container-class-powers{
     background-image:radial-gradient( hsl(173, 17%, 29%), hsl(173, 17%, 35%));
@@ -795,13 +800,13 @@ h1{
       color: black;      
     }
     a:hover {
-        color: rgb(255, 80, 255);;      
+        color: rgb(255, 80, 255);      
       }
     .class-container a{
         color:hsl(180, 100%, 97%);
     }
     .class-container a:hover{
-        color: rgb(0, 253, 253);
+        color: rgb(0, 253, 253);       
     }
     nav{
         color: black;

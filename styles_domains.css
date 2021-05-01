@@ -10,7 +10,7 @@ section{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    color: azure;
+    color:hsl(180, 100%, 97%);
 }
 ul{    
     list-style-type: none;
@@ -23,15 +23,18 @@ nav li{
 }
 a{
     text-decoration: none;
-    color: azure;    
+    color:hsl(180, 100%, 97%);   
 }
 a:hover{
     text-decoration: none;
     color: rgb(0, 253, 253);    
 }
+.domain-disciplines-container a:hover{
+    font-size: 99%; 
+}
 body{
     text-align: center;
-    color: azure;
+    
     margin: 0;    
 }
 h1{
@@ -51,6 +54,12 @@ h1{
 .container-major h6{
     font-size: 1.5rem;
     margin-bottom: .5rem;
+}
+.domain-majors{
+    font-size: 1.1rem;
+}
+.domain-minors{
+    font-size: 1.1rem;
 }
 
 .domain-disciplines-container{
@@ -86,8 +95,7 @@ h1{
         display: grid;
         grid-column: 1;
         grid-row: 3;     
-        text-align: center;
-        font-size: 1.5rem;
+        text-align: center;        
         margin-top: .5rem;    
     }
     .domain-img{    
@@ -100,8 +108,7 @@ h1{
         display: grid;
         grid-column: 1;
         grid-row: 4;     
-        text-align: center;
-        font-size: 1.5rem;
+        text-align: center;        
         margin-top: .5rem;    
     }
     
@@ -150,8 +157,7 @@ h1{
         display: grid;
         grid-column: 1;
         grid-row: 2/7;     
-        text-align: center;
-        font-size: 1.5rem;   
+        text-align: center;         
     }
     .domain-img{    
         display: grid;
@@ -163,8 +169,7 @@ h1{
         display: grid;
         grid-column: 3;
         grid-row: 2/7;     
-        text-align: center;
-        font-size: 1.5rem;    
+        text-align: center;          
     }
     
     
@@ -209,8 +214,7 @@ h1{
     display: grid;
     grid-column: 1;
     grid-row: 2/7;     
-    text-align: center;
-    font-size: 1.5rem;   
+    text-align: center;     
 }
 .domain-img{    
     display: grid;
@@ -222,8 +226,7 @@ h1{
     display: grid;
     grid-column: 3;
     grid-row: 2/7;     
-    text-align: center;
-    font-size: 1.5rem;    
+    text-align: center;       
 }
     
     
@@ -268,8 +271,7 @@ h1{
     display: grid;
     grid-column: 1;
     grid-row: 2/7;     
-    text-align: center;
-    font-size: 1.5rem;   
+    text-align: center;     
 }
 .domain-img{    
     display: grid;
@@ -281,8 +283,7 @@ h1{
     display: grid;
     grid-column: 3;
     grid-row: 2/7;     
-    text-align: center;
-    font-size: 1.5rem;    
+    text-align: center;    
 }
 
 
@@ -307,12 +308,12 @@ h1{
     }
     .domain-disciplines-container{
         color:hsl(180, 100%, 97%);
-    }
+    }    
     a {
       color: black;      
     }
     a:hover {
-        color: rgb(255, 80, 255);;      
+        color: rgb(255, 80, 255);             
       }
     .domain-disciplines-container a{
         color:hsl(180, 100%, 97%);
@@ -327,7 +328,7 @@ h1{
   @media (prefers-color-scheme: dark) {
     body {
         color:hsl(180, 100%, 97%);
-      background: #121212;
+        background: #121212;
     }  
     a {
         color:hsl(180, 100%, 97%);
