@@ -34,6 +34,10 @@ body{
     color: azure;
     margin: 0;    
 }
+h1{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
 .container-major h2{
     font-size: 2rem;
     font-weight: bolder;
@@ -48,227 +52,10 @@ body{
     font-size: 1.5rem;
     margin-bottom: .5rem;
 }
-.class-disciplines-text h3{
-    margin-bottom: .5rem;
-    margin-top: .5rem;
-}
-.cooldown-img{
-    margin-bottom: .5rem;
-}
-h1{
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-}
+
+
 @media screen and (max-width:625px) { 
-
-    /* The Class card */
-    .class-container{
-        display: grid;
-        grid-template-columns: 50vw 50vw;
-        column-gap: .2rem;
-        grid-template-rows: auto auto auto auto auto;
-        row-gap: .2rem;
-        text-align: center;
-    }
-    .class-image{
-        background: rgb(128, 20, 128);
-        color: azure;
-        grid-column: 1/3;
-        grid-row: 1;
-        display: flex;
-        align-items: center;
-        justify-content: center;        
-    }
-    .class-name{
-        background: rgb(128, 20, 128);
-        color: azure; 
-        grid-column: 1/3;
-        grid-row: 2;
-        text-align: center;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: .5rem;  
-    }
-    .class-races{
-        background: rgb(128, 20, 128);
-        color: azure;    
-        grid-column: 1/3;
-        grid-row: 3;
-        text-align: center;
-        display: flex;
-        justify-content: center;
-        align-items: center;        
-        padding: .5rem;      
-    }
-    .container-race-icons{
-        background: rgb(128, 20, 128);
-        color: azure;
-        display: grid;
-        grid-column: 1/3;
-        grid-row: 4;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        padding: .5rem;
-    }
-    .container-race-icons img{      
-        margin: .5rem;
-    }    
-    
-    .class-disciplines{
-        background: rgb(128, 20, 128);
-        color: azure;    
-        grid-column: 1/3;
-        grid-row: 5;
-        padding: .5rem;
-    }
-    .class-disciplines-text{
-        background: rgb(128, 20, 128);
-        color: azure;    
-        grid-column: 1/3;
-        grid-row: 6/9;
-        padding: .5rem;
-        line-height: 1.5rem;  
-    }
-    .class-promotion{
-        background: rgb(128, 20, 128);
-        color: azure;
-        grid-column: 1;
-        grid-row: 10;
-        padding: .5rem;     
-    }
-    .class-promotion-text1{
-        background: rgb(128, 20, 128);
-        color: azure;
-        grid-column: 1/2;
-        grid-row: 11;
-        padding: .5rem;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        list-style-type: none;
-    }
-    .class-promotion-text2{
-        background: rgb(128, 20, 128);
-        color: azure;
-        grid-column: 1/2;
-        grid-row: 12;
-        padding: .5rem;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    .class-promotion-text3{
-        background: rgb(128, 20, 128);
-        color: azure;
-        grid-column: 1/2;
-        grid-row: 13;
-        padding: .5rem;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    .class-domains{
-        background: rgb(128, 20, 128);
-        color: azure;
-        grid-column: 2;
-        grid-row: 10;
-        padding: .5rem;     
-    }
-    .class-domains-text1{
-        background: rgb(128, 20, 128);
-        color: azure;
-        grid-column: 2/3;
-        grid-row: 11;
-        padding: .5rem;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        line-height: 2rem; 
-    }
-    .class-domains-text2{
-        background: rgb(128, 20, 128);
-        color: azure;
-        grid-column: 2/3;
-        grid-row: 12;
-        padding: .5rem;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        line-height: 2rem; 
-    }
-    .class-domains-text3{
-        background: rgb(128, 20, 128);
-        color: azure;
-        grid-column: 2/3;
-        grid-row: 13;
-        padding: .5rem;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        line-height: 2rem;  
-    }
-/* The class power cards*/
-.container-class-powers{
-    background-image:radial-gradient(rgb(100, 33, 100), rgb(128, 20, 128));
-    display: grid;
-    grid-template-columns: 25vw;    
-    grid-template-rows: auto;    
-    text-align: center;
-    padding: .5rem;
-    margin-right: .5rem;
-}
-.header-class-powers img{
-    width: 5rem;
-
-}
-.class-powers-cooldown-info{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;  
-}
-.class-powers-cooldown-info img{
-    display: inline;       
-    width: 1.5rem;
-    text-align: center;     
-}
-.cooldown-img{
-    display: block;
-    text-align: center;    
-    margin-left: 1rem;
-    margin-right: 1rem;      
-}
-
-.container-class-powers{
-    background-image:radial-gradient(rgb(100, 33, 100), rgb(128, 20, 128));
-    display: grid;
-    grid-template-columns: 95vw;    
-    grid-template-rows: auto;    
-    text-align: center;
-    padding: .5rem;
-    margin-right: .5rem;
-    margin-bottom: .5rem;
-}
-.header-class-powers img{
-    width: 5rem;
-
-}
-.class-powers-cooldown-info{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;  
-}
-.class-powers-cooldown-info img{
-    display: inline;  
-    width: 1.5rem;
-    text-align: center;     
-}
-.cooldown-img{    
-    margin-left: 1rem;
-    margin-right: 1rem;      
-}
+ 
 /* The Major and Minor cards */
 .container-major{
     background-image:radial-gradient(rgb(100, 33, 100), rgb(128, 20, 128));
@@ -286,182 +73,7 @@ h1{
 }        
 @media screen and (min-width:625px) {  
 
-    /* The Class card */
-.class-container{    
-    display: grid;
-    grid-template-columns: 33vw 33vw 33vw;
-    column-gap: .2rem;
-    grid-template-rows: auto auto auto auto auto;
-    row-gap: .2rem;
-    text-align: center;
-}
-.class-image{
-    background: rgb(128, 20, 128);
-    color: azure;
-    grid-column: 1;
-    grid-row: 1/4;
-    display: flex;
-    align-items: center;
-    justify-content: center;        
-}
-.class-name{
-    background: rgb(128, 20, 128);
-    color: azure; 
-    grid-column: 2/4;
-    grid-row: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: .5rem;  
-}
-.class-races{
-    background: rgb(128, 20, 128);
-    color: azure;    
-    grid-column: 2/4;
-    grid-row: 2;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: .5rem;      
-}
-.container-race-icons{
-    background: rgb(128, 20, 128);
-    color: azure;
-    display: grid;
-    grid-column: 2/4;
-    grid-row: 3;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    padding: .5rem;
-}
-.container-race-icons img{    
-    padding: .5rem;
-}
-.class-disciplines{
-    background: rgb(128, 20, 128);
-    color: azure;    
-    grid-column: 1/2;
-    grid-row: 4;
-    padding: .5rem;
-}
-.class-disciplines-text{
-    background: rgb(128, 20, 128);
-    color: azure;    
-    grid-column: 1/2;
-    grid-row: 5/8;
-    padding: .5rem;
-    line-height: 1.5rem; 
-}
-.class-promotion{
-    background: rgb(128, 20, 128);
-    color: azure;
-    grid-column: 2/3;
-    grid-row: 4;
-    padding: .5rem;     
-}
-.class-promotion-text1{
-    background: rgb(128, 20, 128);
-    color: azure;
-    grid-column: 2/3;
-    grid-row: 5;
-    padding: .5rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.class-promotion-text2{
-    background: rgb(128, 20, 128);
-    color: azure;
-    grid-column: 2/3;
-    grid-row: 6;
-    padding: .5rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.class-promotion-text3{
-    background: rgb(128, 20, 128);
-    color: azure;
-    grid-column: 2/3;
-    grid-row: 7;
-    padding: .5rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.class-domains{
-    background: rgb(128, 20, 128);
-    color: azure;
-    grid-column: 3/4;
-    grid-row: 4;
-    padding: .5rem;     
-}
-.class-domains-text1{
-    background: rgb(128, 20, 128);
-    color: azure;
-    grid-column: 3/4;
-    grid-row: 5;
-    padding: .5rem;    
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    line-height: 2rem;
-}
-.class-domains-text2{
-    background: rgb(128, 20, 128);
-    color: azure;
-    grid-column: 3/4;
-    grid-row: 6;
-    padding: .5rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    line-height: 2rem;
-}
-.class-domains-text3{
-    background: rgb(128, 20, 128);
-    color: azure;
-    grid-column: 3/4;
-    grid-row: 7;
-    padding: .5rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    line-height: 2rem; 
-}
-/* The class power cards*/
-.container-class-powers{
-    background-image:radial-gradient(rgb(100, 33, 100), rgb(128, 20, 128));
-    display: grid;
-    grid-template-columns: 42vw;    
-    grid-template-rows: auto;    
-    text-align: center;
-    padding: .5rem;
-    margin-right: .5rem;
-    margin-bottom: .5rem;
-}
-.header-class-powers img{
-    width: 5rem;
-
-}
-.class-powers-cooldown-info{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;  
-}
-.class-powers-cooldown-info img{
-    display: inline;        
-    width: 1.5rem;
-    text-align: center;     
-}
-.cooldown-img{  
-    display: block;
-    text-align: center;   
-    margin-left: 1rem;
-    margin-right: 1rem;      
+ 
 }
 /* The Major and Minor cards */
 .container-major{
@@ -477,187 +89,9 @@ h1{
 .header-major img{
     width: 5rem;
 }
-}
+
 @media screen and (min-width:950px) {  
 
-    /* The Class card */
-.class-container{    
-    display: grid;
-    grid-template-columns: 33vw 33vw 33vw;
-    column-gap: .2rem;
-    grid-template-rows: auto auto auto auto auto;
-    row-gap: .2rem;
-    text-align: center;
-}
-.class-image{
-    background: rgb(128, 20, 128);
-    color: azure;
-    grid-column: 1;
-    grid-row: 1/4;
-    display: flex;
-    align-items: center;
-    justify-content: center;        
-}
-.class-name{
-    background: rgb(128, 20, 128);
-    color: azure; 
-    grid-column: 2/4;
-    grid-row: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: .5rem;  
-}
-.class-races{
-    background: rgb(128, 20, 128);
-    color: azure;    
-    grid-column: 2/4;
-    grid-row: 2;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: .5rem;      
-}
-.container-race-icons{
-    background: rgb(128, 20, 128);
-    color: azure;
-    display: grid;
-    grid-column: 2/4;
-    grid-row: 3;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    padding: .5rem;
-}
-.container-race-icons img{    
-    padding: .5rem;
-}
-.class-disciplines{
-    background: rgb(128, 20, 128);
-    color: azure;    
-    grid-column: 1/2;
-    grid-row: 4;
-    padding: .5rem;
-}
-.class-disciplines-text{
-    background: rgb(128, 20, 128);
-    color: azure;    
-    grid-column: 1/2;
-    grid-row: 5/8;
-    padding: .5rem;
-    line-height: 1.5rem; 
-}
-.class-promotion{
-    background: rgb(128, 20, 128);
-    color: azure;
-    grid-column: 2/3;
-    grid-row: 4;
-    padding: .5rem;     
-}
-.class-promotion-text1{
-    background: rgb(128, 20, 128);
-    color: azure;
-    grid-column: 2/3;
-    grid-row: 5;
-    padding: .5rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.class-promotion-text2{
-    background: rgb(128, 20, 128);
-    color: azure;
-    grid-column: 2/3;
-    grid-row: 6;
-    padding: .5rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.class-promotion-text3{
-    background: rgb(128, 20, 128);
-    color: azure;
-    grid-column: 2/3;
-    grid-row: 7;
-    padding: .5rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.class-domains{
-    background: rgb(128, 20, 128);
-    color: azure;
-    grid-column: 3/4;
-    grid-row: 4;
-    padding: .5rem;     
-}
-.class-domains-text1{
-    background: rgb(128, 20, 128);
-    color: azure;
-    grid-column: 3/4;
-    grid-row: 5;
-    padding: .5rem;    
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    line-height: 2rem;
-}
-.class-domains-text2{
-    background: rgb(128, 20, 128);
-    color: azure;
-    grid-column: 3/4;
-    grid-row: 6;
-    padding: .5rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    line-height: 2rem;
-}
-.class-domains-text3{
-    background: rgb(128, 20, 128);
-    color: azure;
-    grid-column: 3/4;
-    grid-row: 7;
-    padding: .5rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    line-height: 2rem; 
-}
-/* The class power cards*/
-.container-class-powers{
-    background-image:radial-gradient(rgb(100, 33, 100), rgb(128, 20, 128));
-    display: grid;
-    grid-template-columns: 30vw;    
-    grid-template-rows: auto;    
-    text-align: center;
-    padding: .5rem;
-    margin-right: .5rem;
-    margin-bottom: .5rem;
-}
-.header-class-powers img{
-    width: 5rem;
-
-}
-.class-powers-cooldown-info{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;  
-}
-.class-powers-cooldown-info img{
-    display: inline;        
-    width: 1.5rem;
-    text-align: center;     
-}
-
-.cooldown-img{ 
-    display: block;
-    text-align: center;    
-    margin-left: 1rem;
-    margin-right: 1rem;      
-}
 /* The Major and Minor cards */
 .container-major{
     background-image:radial-gradient(rgb(100, 33, 100), rgb(128, 20, 128));
@@ -677,20 +111,24 @@ h1{
 
 @media screen and (min-width:1400px) {  
 
-    /* The Class card */
-.domain-disciplines{
-    background: rgb(128, 20, 128);   
+    /* The domain name card */
+.domain-disciplines-container{
+    background: hsl(173, 17%, 29%);   
     display: grid;
     grid-template-columns: auto;
     column-gap: .2rem;
     grid-template-rows: auto;
     row-gap: .2rem;
     text-align: center;
-    margin-top: 1rem;   
+    margin: 1.5rem;
+    padding: 1rem;   
 }
-.domain-disciplines h2{    
+.domain-disciplines-container h3{
+    margin-bottom: .5rem;
+}
+.domain-name{    
     display: grid;
-    grid-column: 1/3;
+    grid-column: 2/3;
     grid-row: 1/2;     
     text-align: center;   
 }
@@ -698,186 +136,32 @@ h1{
     display: grid;
     grid-column: 1;
     grid-row: 2/10;     
-    text-align: center;   
+    text-align: center;
+    font-size: 1.5rem;   
+}
+.domain-img{    
+    display: grid;
+    grid-column: 2/3;
+    grid-row: 5;
+    justify-content: center;  
 }
 .domain-minors{    
     display: grid;
-    grid-column: 2;
+    grid-column: 3;
     grid-row: 2/10;     
-    text-align: center;   
+    text-align: center;
+    font-size: 1.5rem;    
 }
 
-.class-image{
-    background: rgb(128, 20, 128);
-    color: azure;
-    grid-column: 1;
-    grid-row: 1/4;
-    display: flex;
-    align-items: center;
-    justify-content: center;        
-}
-.class-name{
-    background: rgb(128, 20, 128);
-    color: azure; 
-    grid-column: 2/4;
-    grid-row: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: .5rem;  
-}
-.class-races{
-    background: rgb(128, 20, 128);
-    color: azure;    
-    grid-column: 2/4;
-    grid-row: 2;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: .5rem;      
-}
-.container-race-icons{
-    background: rgb(128, 20, 128);
-    color: azure;
-    display: grid;
-    grid-column: 2/4;
-    grid-row: 3;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    padding: .5rem;
-}
-.container-race-icons img{    
-    padding: .5rem;
-}
-.class-disciplines{
-    background: rgb(128, 20, 128);
-    color: azure;    
-    grid-column: 1/2;
-    grid-row: 4;
-    padding: .5rem;
-}
-.class-disciplines-text{
-    background: rgb(128, 20, 128);
-    color: azure;    
-    grid-column: 1/2;
-    grid-row: 5/8;
-    padding: .5rem;
-    line-height: 1.5rem; 
-}
-.class-promotion{
-    background: rgb(128, 20, 128);
-    color: azure;
-    grid-column: 2/3;
-    grid-row: 4;
-    padding: .5rem;     
-}
-.class-promotion-text1{
-    background: rgb(128, 20, 128);
-    color: azure;
-    grid-column: 2/3;
-    grid-row: 5;
-    padding: .5rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.class-promotion-text2{
-    background: rgb(128, 20, 128);
-    color: azure;
-    grid-column: 2/3;
-    grid-row: 6;
-    padding: .5rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.class-promotion-text3{
-    background: rgb(128, 20, 128);
-    color: azure;
-    grid-column: 2/3;
-    grid-row: 7;
-    padding: .5rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.class-domains{
-    background: rgb(128, 20, 128);
-    color: azure;
-    grid-column: 3/4;
-    grid-row: 4;
-    padding: .5rem;     
-}
-.class-domains-text1{
-    background: rgb(128, 20, 128);
-    color: azure;
-    grid-column: 3/4;
-    grid-row: 5;
-    padding: .5rem;    
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    line-height: 2rem;
-}
-.class-domains-text2{
-    background: rgb(128, 20, 128);
-    color: azure;
-    grid-column: 3/4;
-    grid-row: 6;
-    padding: .5rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    line-height: 2rem;
-}
-.class-domains-text3{
-    background: rgb(128, 20, 128);
-    color: azure;
-    grid-column: 3/4;
-    grid-row: 7;
-    padding: .5rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    line-height: 2rem; 
-}
-/* The class power cards*/
-.container-class-powers{
-    background-image:radial-gradient(rgb(100, 33, 100), rgb(128, 20, 128));
-    display: grid;
-    grid-template-columns: 23vw;    
-    grid-template-rows: auto;    
-    text-align: center;
-    padding: .5rem;
-    margin-right: .5rem;
-    margin-bottom: .5rem;
-}
-.header-class-powers img{
-    width: 5rem;
-}
-.class-powers-cooldown-info{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;  
-}
-.class-powers-cooldown-info img{
-    display: inline;
-    text-align: center;
-    margin-top: .5rem;         
-}
+
 /* The Major and Minor cards */
 .container-major{
-    background-image:radial-gradient(rgb(100, 33, 100), rgb(128, 20, 128));
+    background-image:radial-gradient( hsl(173, 17%, 29%), hsl(173, 17%, 35%));
     display: grid;
     grid-template-columns: 23vw;    
     grid-template-rows: auto;    
     text-align: center;
-    padding: .5rem;
-    margin-right: .5rem;
-    margin-bottom: .5rem;
+    padding: .5rem;   
 }
 .header-major img{
     width: 5rem;
@@ -902,9 +186,7 @@ h1{
     }
     nav{
         color: black;
-    }
-    
-
+    }    
   }
   @media (prefers-color-scheme: dark) {
     body {
