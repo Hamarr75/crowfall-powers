@@ -103,6 +103,10 @@ body{
     nav{
         color: black;
     }
+    .domains-icon img{
+      background-color: hsl(173, 17%, 29%);           
+      border-radius: 50%;      
+    }
     
 
   }
