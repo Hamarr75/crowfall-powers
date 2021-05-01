@@ -56,58 +56,191 @@ h1{
 
 @media screen and (max-width:625px) { 
  
-/* The Major and Minor cards */
-.container-major{
-    background-image:radial-gradient(rgb(100, 33, 100), rgb(128, 20, 128));
-    display: grid;
-    grid-template-columns: 95vw;    
-    grid-template-rows: auto;    
-    text-align: center;
-    padding: .5rem;
-    margin-right: .5rem;
-    margin-bottom: .5rem;
+    /* The domain name card */
+    .domain-disciplines-container{
+        background: hsl(173, 17%, 29%);   
+        display: grid;
+        grid-template-columns: 100vw;     
+        grid-template-rows: auto;         
+        text-align: center;
+        padding-bottom: 1rem;   
+          
+    }
+    .domain-disciplines-container h3{
+        margin-bottom: .5rem;
+    }
+    .domain-name{ 
+        grid-column: 1;
+        grid-row: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: .5rem;   
+    }
+    .domain-majors{    
+        display: grid;
+        grid-column: 1;
+        grid-row: 3;     
+        text-align: center;
+        font-size: 1.5rem;
+        margin-top: .5rem;    
+    }
+    .domain-img{    
+        display: grid;
+        grid-column: 1;
+        grid-row: 2;
+        justify-content: center;  
+    }
+    .domain-minors{    
+        display: grid;
+        grid-column: 1;
+        grid-row: 4;     
+        text-align: center;
+        font-size: 1.5rem;
+        margin-top: .5rem;    
+    }
+    
+    
+    /* The Major and Minor cards */
+    .container-major{
+        background-image:radial-gradient( hsl(173, 17%, 29%), hsl(173, 17%, 35%));
+        display: grid;
+        grid-template-columns: 95vw;    
+        grid-template-rows: auto;    
+        text-align: center;
+        padding: .5rem;
+        margin-right: .5rem;
+        margin-bottom: .5rem;   
+    }
+    .header-major img{
+        width: 5rem;
+    }
 }
-}  
+  
 .header-major img{
     width: 5rem;
 }        
 @media screen and (min-width:625px) {  
 
- 
-}
-/* The Major and Minor cards */
-.container-major{
-    background-image:radial-gradient(rgb(100, 33, 100), rgb(128, 20, 128));
-    display: grid;
-    grid-template-columns: 42vw;    
-    grid-template-rows: auto;    
-    text-align: center;
-    padding: .5rem;
-    margin-right: .5rem;
-    margin-bottom: .5rem;
-}
-.header-major img{
-    width: 5rem;
-}
+    /* The domain name card */
+    .domain-disciplines-container{
+        background: hsl(173, 17%, 29%);   
+        display: grid;
+        grid-template-columns: 33vw 33vw 33vw;     
+        grid-template-rows: auto;         
+        text-align: center;
+        padding-bottom: 1rem;   
+          
+    }
+    .domain-disciplines-container h3{
+        margin-bottom: .5rem;
+    }
+    .domain-name{ 
+        grid-column: 1/4;
+        grid-row: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: .5rem;   
+    }
+    .domain-majors{    
+        display: grid;
+        grid-column: 1;
+        grid-row: 2/7;     
+        text-align: center;
+        font-size: 1.5rem;   
+    }
+    .domain-img{    
+        display: grid;
+        grid-column: 2;
+        grid-row: 4;
+        justify-content: center;  
+    }
+    .domain-minors{    
+        display: grid;
+        grid-column: 3;
+        grid-row: 2/7;     
+        text-align: center;
+        font-size: 1.5rem;    
+    }
+    
+    
+    /* The Major and Minor cards */
+    .container-major{
+        background-image:radial-gradient( hsl(173, 17%, 29%), hsl(173, 17%, 35%));
+        display: grid;
+        grid-template-columns: 42vw;    
+        grid-template-rows: auto;    
+        text-align: center;
+        padding: .5rem;
+        margin-right: .5rem;
+        margin-bottom: .5rem;      
+    }
+    .header-major img{
+        width: 5rem;
+    }
+    }
 
 @media screen and (min-width:950px) {  
 
-/* The Major and Minor cards */
-.container-major{
-    background-image:radial-gradient(rgb(100, 33, 100), rgb(128, 20, 128));
+     /* The domain name card */
+.domain-disciplines-container{
+    background: hsl(173, 17%, 29%);   
     display: grid;
-    grid-template-columns: 30vw;    
-    grid-template-rows: auto;    
+    grid-template-columns: 33vw 33vw 33vw;     
+    grid-template-rows: auto;         
     text-align: center;
-    padding: .5rem;
-    margin-right: .5rem;
+    padding-bottom: 1rem;   
+      
+}
+.domain-disciplines-container h3{
     margin-bottom: .5rem;
 }
-.header-major img{
-    width: 5rem;
+.domain-name{ 
+    grid-column: 1/4;
+    grid-row: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .5rem;   
 }
-
+.domain-majors{    
+    display: grid;
+    grid-column: 1;
+    grid-row: 2/7;     
+    text-align: center;
+    font-size: 1.5rem;   
 }
+.domain-img{    
+    display: grid;
+    grid-column: 2;
+    grid-row: 4;
+    justify-content: center;  
+}
+.domain-minors{    
+    display: grid;
+    grid-column: 3;
+    grid-row: 2/7;     
+    text-align: center;
+    font-size: 1.5rem;    
+}
+    
+    
+    /* The Major and Minor cards */
+    .container-major{
+        background-image:radial-gradient( hsl(173, 17%, 29%), hsl(173, 17%, 35%));
+        display: grid;
+        grid-template-columns: 30vw;    
+        grid-template-rows: auto;    
+        text-align: center;
+        padding: .5rem;
+        margin-right: .5rem;
+        margin-bottom: .5rem;      
+    }
+    .header-major img{
+        width: 5rem;
+    }
+    }
 
 @media screen and (min-width:1400px) {  
 
@@ -115,40 +248,40 @@ h1{
 .domain-disciplines-container{
     background: hsl(173, 17%, 29%);   
     display: grid;
-    grid-template-columns: auto;
-    column-gap: .2rem;
-    grid-template-rows: auto;
-    row-gap: .2rem;
+    grid-template-columns: 33vw 33vw 33vw;     
+    grid-template-rows: auto;         
     text-align: center;
-    margin: 1.5rem;
-    padding: 1rem;   
+    padding-bottom: 1rem;   
+      
 }
 .domain-disciplines-container h3{
     margin-bottom: .5rem;
 }
-.domain-name{    
-    display: grid;
-    grid-column: 2/3;
-    grid-row: 1/2;     
-    text-align: center;   
+.domain-name{ 
+    grid-column: 1/4;
+    grid-row: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .5rem;   
 }
 .domain-majors{    
     display: grid;
     grid-column: 1;
-    grid-row: 2/10;     
+    grid-row: 2/7;     
     text-align: center;
     font-size: 1.5rem;   
 }
 .domain-img{    
     display: grid;
-    grid-column: 2/3;
-    grid-row: 5;
+    grid-column: 2;
+    grid-row: 4;
     justify-content: center;  
 }
 .domain-minors{    
     display: grid;
     grid-column: 3;
-    grid-row: 2/10;     
+    grid-row: 2/7;     
     text-align: center;
     font-size: 1.5rem;    
 }
@@ -161,7 +294,9 @@ h1{
     grid-template-columns: 23vw;    
     grid-template-rows: auto;    
     text-align: center;
-    padding: .5rem;   
+    padding: .5rem;
+    margin-right: .5rem;
+    margin-bottom: .5rem;      
 }
 .header-major img{
     width: 5rem;
