@@ -62,9 +62,58 @@ h1{
 .race-image img{
     border-radius: 50%;
 }
+.race-image{
+    background: hsl(173, 17%, 29%);    
+}
+.race-name{
+    background: hsl(173, 17%, 29%);
+    color: azure;
+}
+.race-classes{
+    background: hsl(173, 17%, 29%);
+}
+.container-class-icons{
+    background: hsl(173, 17%, 29%);
+}
+.race-disciplines{
+    background: hsl(173, 17%, 29%);
+}
+.race-disciplines-text{
+    background: hsl(173, 17%, 29%);
+}
+.race-promotion{
+    background: hsl(173, 17%, 29%);
+}
+.race-promotion-text1{
+    background: hsl(173, 17%, 29%);
+}
+.race-promotion-text2{
+    background: hsl(173, 17%, 29%);
+}
+.race-promotion-text3{
+    background: hsl(173, 17%, 29%);
+}
+.race-domains{
+    background: hsl(173, 17%, 29%);
+}
+.race-domains-text1{
+    background: hsl(173, 17%, 29%);
+}
+.race-domains-text2{
+    background: hsl(173, 17%, 29%);
+}
+.race-domains-text3{
+    background: hsl(173, 17%, 29%);
+}
+.container-race-powers{
+    background-image:radial-gradient( hsl(173, 17%, 29%), hsl(173, 17%, 35%));
+}
+.container-major{
+    background-image:radial-gradient( hsl(173, 17%, 29%), hsl(173, 17%, 35%));
+}
 @media screen and (max-width:625px) { 
 
-    /* The Class card */
+    /* The race card */
     .race-container{
         display: grid;
         grid-template-columns: 50vw 50vw;
@@ -73,18 +122,15 @@ h1{
         row-gap: .2rem;
         text-align: center;
     }
-    .race-image{
-        background: rgb(128, 20, 128);
-        color: azure;
+    .race-image{      
         grid-column: 1/3;
         grid-row: 1;
         display: flex;
         align-items: center;
         justify-content: center;        
     }
-    .race-name{
-        background: rgb(128, 20, 128);
-        color: azure; 
+    .race-name{        
+        
         grid-column: 1/3;
         grid-row: 2;
         text-align: center;
@@ -93,9 +139,7 @@ h1{
         align-items: center;
         padding: .5rem;  
     }
-    .race-classes{
-        background: rgb(128, 20, 128);
-        color: azure;    
+    .race-classes{ 
         grid-column: 1/3;
         grid-row: 3;
         text-align: center;
@@ -105,8 +149,6 @@ h1{
         padding: .5rem;      
     }
     .container-class-icons{
-        background: rgb(128, 20, 128);
-        color: azure;
         display: grid;
         grid-column: 1/3;
         grid-row: 4;
@@ -121,31 +163,19 @@ h1{
     }    
     
     .race-disciplines{
-        background: rgb(128, 20, 128);
-        color: azure;    
         grid-column: 1/3;
         grid-row: 5;
         padding: .5rem;
     }
-    .race-disciplines-text{
-        background: rgb(128, 20, 128);
-        color: azure;    
+    .race-disciplines-text{      
         grid-column: 1/3;
         grid-row: 6/9;
         padding: .5rem;
         line-height: 1.5rem;  
     }
     }
-/* The class power cards*/
-.container-race-powers{
-    background-image:radial-gradient(rgb(100, 33, 100), rgb(128, 20, 128));
-    display: grid;
-    grid-template-columns: 25vw;    
-    grid-template-rows: auto;    
-    text-align: center;
-    padding: .5rem;
-    margin-right: .5rem;
-}
+/* The race power cards*/
+
 .header-race-powers img{
     width: 5rem;
 
@@ -167,8 +197,7 @@ h1{
     margin-right: 1rem;      
 }
 
-.container-race-powers{
-    background-image:radial-gradient(rgb(100, 33, 100), rgb(128, 20, 128));
+.container-race-powers{    
     display: grid;
     grid-template-columns: 95vw;    
     grid-template-rows: auto;    
@@ -196,8 +225,7 @@ h1{
     margin-right: 1rem;      
 }
 /* The Major and Minor cards */
-.container-major{
-    background-image:radial-gradient(rgb(100, 33, 100), rgb(128, 20, 128));
+.container-major{    
     display: grid;
     grid-template-columns: 95vw;    
     grid-template-rows: auto;    
@@ -221,18 +249,14 @@ h1{
     row-gap: .2rem;
     text-align: center;
 }
-.race-image{
-    background: rgb(128, 20, 128);
-    color: azure;
+.race-image{  
     grid-column: 1;
     grid-row: 1/4;
     display: flex;
     align-items: center;
     justify-content: center;        
 }
-.race-name{
-    background: rgb(128, 20, 128);
-    color: azure; 
+.race-name{    
     grid-column: 2/4;
     grid-row: 1;
     display: flex;
@@ -240,9 +264,7 @@ h1{
     align-items: center;
     padding: .5rem;  
 }
-.race-classes{
-    background: rgb(128, 20, 128);
-    color: azure;    
+.race-classes{      
     grid-column: 2/4;
     grid-row: 2;
     text-align: center;
@@ -251,9 +273,7 @@ h1{
     align-items: center;
     padding: .5rem;      
 }
-.container-class-icons{
-    background: rgb(128, 20, 128);
-    color: azure;
+.container-class-icons{    
     display: grid;
     grid-column: 2/4;
     grid-row: 3;
@@ -266,31 +286,23 @@ h1{
 .container-class-icons img{    
     padding: .5rem;
 }
-.race-disciplines{
-    background: rgb(128, 20, 128);
-    color: azure;    
+.race-disciplines{       
     grid-column: 1/2;
     grid-row: 4;
     padding: .5rem;
 }
-.race-disciplines-text{
-    background: rgb(128, 20, 128);
-    color: azure;    
+.race-disciplines-text{     
     grid-column: 1/2;
     grid-row: 5/8;
     padding: .5rem;
     line-height: 1.5rem; 
 }
-.race-promotion{
-    background: rgb(128, 20, 128);
-    color: azure;
+.race-promotion{    
     grid-column: 2/3;
     grid-row: 4;
     padding: .5rem;     
 }
-.race-promotion-text1{
-    background: rgb(128, 20, 128);
-    color: azure;
+.race-promotion-text1{    
     grid-column: 2/3;
     grid-row: 5;
     padding: .5rem;
@@ -298,9 +310,7 @@ h1{
     align-items: center;
     justify-content: center;
 }
-.race-promotion-text2{
-    background: rgb(128, 20, 128);
-    color: azure;
+.race-promotion-text2{    
     grid-column: 2/3;
     grid-row: 6;
     padding: .5rem;
@@ -308,9 +318,7 @@ h1{
     align-items: center;
     justify-content: center;
 }
-.race-promotion-text3{
-    background: rgb(128, 20, 128);
-    color: azure;
+.race-promotion-text3{    
     grid-column: 2/3;
     grid-row: 7;
     padding: .5rem;
@@ -320,8 +328,7 @@ h1{
 }
 
 /* The race power cards*/
-.container-race-powers{
-    background-image:radial-gradient(rgb(100, 33, 100), rgb(128, 20, 128));
+.container-race-powers{   
     display: grid;
     grid-template-columns: 42vw;    
     grid-template-rows: auto;    
@@ -351,8 +358,7 @@ h1{
     margin-right: 1rem;      
 }
 /* The Major and Minor cards */
-.container-major{
-    background-image:radial-gradient(rgb(100, 33, 100), rgb(128, 20, 128));
+.container-major{    
     display: grid;
     grid-template-columns: 42vw;    
     grid-template-rows: auto;    
@@ -376,18 +382,14 @@ h1{
     row-gap: .2rem;
     text-align: center;
 }
-.race-image{
-    background: rgb(128, 20, 128);
-    color: azure;
+.race-image{      
     grid-column: 1;
     grid-row: 1/4;
     display: flex;
     align-items: center;
     justify-content: center;        
 }
-.race-name{
-    background: rgb(128, 20, 128);
-    color: azure; 
+.race-name{ 
     grid-column: 2/4;
     grid-row: 1;
     display: flex;
@@ -395,9 +397,7 @@ h1{
     align-items: center;
     padding: .5rem;  
 }
-.race-classes{
-    background: rgb(128, 20, 128);
-    color: azure;    
+.race-classes{   
     grid-column: 2/4;
     grid-row: 2;
     text-align: center;
@@ -407,8 +407,6 @@ h1{
     padding: .5rem;      
 }
 .container-class-icons{
-    background: rgb(128, 20, 128);
-    color: azure;
     display: grid;
     grid-column: 2/4;
     grid-row: 3;
@@ -421,16 +419,12 @@ h1{
 .container-class-icons img{    
     padding: .5rem;
 }
-.race-disciplines{
-    background: rgb(128, 20, 128);
-    color: azure;    
+.race-disciplines{    
     grid-column: 1/2;
     grid-row: 4;
     padding: .5rem;
 }
 .race-disciplines-text{
-    background: rgb(128, 20, 128);
-    color: azure;    
     grid-column: 1/2;
     grid-row: 5/8;
     padding: .5rem;
@@ -438,8 +432,7 @@ h1{
 }
 
 /* The race power cards*/
-.container-race-powers{
-    background-image:radial-gradient(rgb(100, 33, 100), rgb(128, 20, 128));
+.container-race-powers{    
     display: grid;
     grid-template-columns: 30vw;    
     grid-template-rows: auto;    
@@ -470,8 +463,7 @@ h1{
     margin-right: 1rem;      
 }
 /* The Major and Minor cards */
-.container-major{
-    background-image:radial-gradient(rgb(100, 33, 100), rgb(128, 20, 128));
+.container-major{    
     display: grid;
     grid-template-columns: 30vw;    
     grid-template-rows: auto;    
@@ -498,8 +490,6 @@ h1{
     text-align: center;   
 }
 .race-image{
-    background: rgb(128, 20, 128);
-    color: azure;
     grid-column: 1;
     grid-row: 1/4;
     display: flex;
@@ -507,8 +497,6 @@ h1{
     justify-content: center;        
 }
 .race-name{
-    background: rgb(128, 20, 128);
-    color: azure; 
     grid-column: 2/4;
     grid-row: 1;
     display: flex;
@@ -516,9 +504,7 @@ h1{
     align-items: center;
     padding: .5rem;  
 }
-.race-classes{
-    background: rgb(128, 20, 128);
-    color: azure;    
+.race-classes{  
     grid-column: 2/4;
     grid-row: 2;
     text-align: center;
@@ -528,8 +514,6 @@ h1{
     padding: .5rem;      
 }
 .container-class-icons{
-    background: rgb(128, 20, 128);
-    color: azure;
     display: grid;
     grid-column: 2/4;
     grid-row: 3/8;
@@ -542,24 +526,19 @@ h1{
 .container-class-icons img{    
     padding: .5rem;
 }
-.race-disciplines{
-    background: rgb(128, 20, 128);
-    color: azure;    
+.race-disciplines{   
     grid-column: 1/2;
     grid-row: 4;
     padding: .5rem;
 }
-.race-disciplines-text{
-    background: rgb(128, 20, 128);
-    color: azure;    
+.race-disciplines-text{  
     grid-column: 1/2;
     grid-row: 5/8;
     padding: .5rem;
     line-height: 1.5rem; 
 }
 /* The race power cards*/
-.container-race-powers{
-    background-image:radial-gradient(rgb(100, 33, 100), rgb(128, 20, 128));
+.container-race-powers{    
     display: grid;
     grid-template-columns: 23vw;    
     grid-template-rows: auto;    
@@ -582,8 +561,7 @@ h1{
     margin-top: .5rem;         
 }
 /* The Major and Minor cards */
-.container-major{
-    background-image:radial-gradient(rgb(100, 33, 100), rgb(128, 20, 128));
+.container-major{   
     display: grid;
     grid-template-columns: 23vw;    
     grid-template-rows: auto;    
@@ -601,6 +579,9 @@ h1{
       color: black;
       background-color: white;      
     }
+    .race-container{
+        color:hsl(180, 100%, 97%);
+    }
     a {
       color: black;      
     }
@@ -608,7 +589,7 @@ h1{
         color: rgb(255, 80, 255);;      
       }
     .race-container a{
-        color: #eee;
+        color:hsl(180, 100%, 97%);
     }
     .race-container a:hover{
         color: rgb(0, 253, 253);
@@ -621,11 +602,11 @@ h1{
   }
   @media (prefers-color-scheme: dark) {
     body {
-      color: #eee;
-      background: #121212;
+        color:hsl(180, 100%, 97%);
+        background: #121212;
     }  
     a {
-      color: #eee;
+        color:hsl(180, 100%, 97%);
     }
 
   }
